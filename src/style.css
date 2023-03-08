@@ -1,15 +1,21 @@
+body {
+  background-color: #161f30;
+  position: relative;
+}
 
 .container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 4em;
   width: 100%;
 }
 
 h1 {
-  padding-left: 2em;
+  padding-left: 2%;
   font-size: 40px;
+  color: chocolate;
 }
 
 .showScores {
@@ -17,6 +23,7 @@ h1 {
   flex-direction: column;
   gap: 1em;
   width: 40%;
+  min-width: 250px;
 }
 
 .scoreListHeader {
@@ -27,29 +34,52 @@ h1 {
 
 h2 {
   font-size: 30px;
+  color: white;
 }
 
 .scoreListHeader button {
   height: 2.2em;
   width: 5.5em;
   font-size: 16px;
+  color: #161f30;
+  border: 1px solid white;
+  background-color: chocolate;
+}
+
+.scoreListHeader button:hover {
+  border: 1px solid #161f30;
+  background-color: white;
+  color: chocolate;
 }
 
 .scoreList {
-  border: 2px solid black;
+  border: none;
 }
 
 .scoreList ul {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .scoreList li {
+  position: relative;
   list-style: none;
-  padding: 10px;
+  padding: 1em;
+  background-color: #3d3d3d;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
 }
 
 .scoreList li:nth-child(even) {
   background-color: chocolate;
+}
+
+.scoreList span {
+  position: absolute;
+  right: 15%;
 }
 
 .addScore {
@@ -57,13 +87,15 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5em;
-  width: 20%;
+  width: 30%;
+  min-width: 250px;
   padding: 0;
   margin: 0;
 }
 
 h3 {
   font-size: 25px;
+  color: white;
 }
 
 form {
@@ -77,6 +109,26 @@ form {
 }
 
 input[type=text] {
-  height: 2em;
+  height: 2.5em;
   width: 97%;
+}
+
+input[type=number] {
+  height: 2.5em;
+  width: 97%;
+  border: none;
+}
+
+#submit {
+  padding: 0.3em 1em;
+  border: 1px solid white;
+  background-color: chocolate;
+  color: #161f30;
+  font-size: 16px;
+}
+
+#submit:hover {
+  border: 1px solid #161f30;
+  background-color: white;
+  color: chocolate;
 }

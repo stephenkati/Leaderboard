@@ -39,6 +39,10 @@ h2 {
   border: 2px solid black;
 }
 
+.scoreList ul {
+  padding: 0;
+}
+
 .scoreList li {
   list-style: none;
   padding: 10px;

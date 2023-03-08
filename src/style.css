@@ -1,5 +1,5 @@
 body {
-  background-color: #161F30;
+  background-color: #161f30;
   position: relative;
 }
 
@@ -41,13 +41,13 @@ h2 {
   height: 2.2em;
   width: 5.5em;
   font-size: 16px;
-  color: #161F30;
+  color: #161f30;
   border: 1px solid white;
   background-color: chocolate;
 }
 
 .scoreListHeader button:hover {
-  border: 1px solid #161F30;
+  border: 1px solid #161f30;
   background-color: white;
   color: chocolate;
 }
@@ -67,7 +67,7 @@ h2 {
   position: relative;
   list-style: none;
   padding: 1em;
-  background-color: #3D3D3D;
+  background-color: #3d3d3d;
   font-size: 20px;
   text-transform: capitalize;
   color: white;
@@ -120,15 +120,15 @@ input[type=number] {
 }
 
 #submit {
-  padding: .3em 1em;
+  padding: 0.3em 1em;
   border: 1px solid white;
   background-color: chocolate;
-  color: #161F30;
+  color: #161f30;
   font-size: 16px;
 }
 
 #submit:hover {
-  border: 1px solid #161F30;
+  border: 1px solid #161f30;
   background-color: white;
   color: chocolate;
 }

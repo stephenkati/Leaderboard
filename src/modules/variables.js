@@ -9,7 +9,6 @@ const form = document.querySelector('#form');
 const scoreList = document.querySelector('.scoreList');
 const allScores = document.createElement('ul');
 
-
 export {
-    leaderboardApiURL, gameId, user, score, form, scoreList, allScores
-}
+  leaderboardApiURL, gameId, user, score, form, scoreList, allScores,
+};

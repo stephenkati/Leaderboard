@@ -77,7 +77,10 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML, CSS and Javascript</a></li>
+    <li><a href="#">HTML </a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">webpack</a></li>
   </ul>
 </details>
 
@@ -103,7 +106,8 @@ After you're finished please remove all the comments and instructions!
 
 - **[Used Linters]**
 - **[Great summary for the repo]**
-- **[Use of Github Flow]**
+- **[Use of GitFlow]**
+- **[Leaderboard API]** Using <a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3" > this </a> API, a user can send and retrieve user and score information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

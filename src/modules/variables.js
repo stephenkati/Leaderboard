@@ -1,6 +1,6 @@
 const leaderboardApiURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
-const gameId = localStorage.getItem('gameId');
+const gameId = 'J15IyNAcddSHGJa0shKW';
 
 const user = document.querySelector('#name');
 const score = document.querySelector('#score');

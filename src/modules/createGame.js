@@ -1,4 +1,6 @@
-import { leaderboardApiURL, gameId } from './variables.js';
+import { leaderboardApiURL} from './variables.js';
+
+let gameId;
 
 const createGame = async () => {
   const response = await fetch(leaderboardApiURL, {
@@ -10,10 +12,10 @@ const createGame = async () => {
       name: 'League of Legends',
     }),
   });
-
+  
   const data = await response.text();
   gameId = data.slice(25, 45);
-  localStorage.setItem('gameId', gameId);
+  return gameId;
 };
 
 export default createGame;
